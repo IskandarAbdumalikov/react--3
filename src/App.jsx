@@ -3,12 +3,15 @@ import Header from "./components/layout/header/Header";
 import Hero from "./components/hero/Hero";
 import Footer from "./components/layout/footer/Footer";
 
+
+
 function App() {
+  
   return (
     <Fragment>
       <Header />
       <main>
-        <Hero/>
+        <Hero />
       </main>
       <Footer />
     </Fragment>
